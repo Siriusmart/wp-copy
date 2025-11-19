@@ -1,7 +1,7 @@
 {
     "name": "wp-copy",
-    "version": "0.0.1",
-    "description": "Copy file to dist.",
+    "version": "0.0.2",
+    "description": "Baisc file copy tool for webpan.",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "scripts": {
