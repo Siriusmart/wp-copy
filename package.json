@@ -1,0 +1,28 @@
+{
+    "name": "wp-copy",
+    "version": "0.0.1",
+    "description": "Copy file to dist.",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/siriusmart/wp-copy.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "AGPL-3.0-only",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/siriusmart/wp-copy/issues"
+    },
+    "homepage": "https://github.com/siriusmart/wp-copy#readme",
+    "devDependencies": {
+        "@types/node": "^24.4.0"
+    },
+    "dependencies": {
+        "webpan": "*"
+    }
+}
