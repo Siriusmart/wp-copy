@@ -6,7 +6,7 @@ class CopyProcessor extends webpan.Processor {
         if (content === "dir")
             return {};
         return {
-            relative: new Map([[this.filePath(), content]]),
+            relative: new Map([[this.filePath(), { buffer: content, priority: this.settings().priority ?? 0 }]]),
         };
     }
 }

@@ -5,7 +5,7 @@ export default class CopyProcessor extends webpan.Processor {
     async build(content: Buffer | "dir"): Promise<ProcessorOutputRaw> {
         if (content === "dir") return {}
         return {
-            relative: new Map([[this.filePath(), content]]),
+            relative: new Map([[this.filePath(), { buffer: content, priority: this.settings().priority ?? 0 }]]),
         }
     }
 }
